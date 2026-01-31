@@ -68,3 +68,54 @@
         .btn-hire { background-color: var(--primary-green); color: white; }
         .btn-cv { background-color: var(--dark-green); color: white; }
 
+        /* --- Seccion Inferior--- */
+
+        .card {
+            max-width: 1000px;
+            margin: -50px auto 50px; /* Eleva la tarjeta sobre el hero */
+            background: white;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        .about {
+            flex: 1;
+            min-width: 300px;
+        }
+        .info {
+            flex: 1;
+            min-width: 300px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .about-text {
+            color: var(--text-gray);
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+        .infobasica {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .infobasica td {
+            padding: 10px 0;
+            font-size: 0.9rem;
+        }
+
+        .label {
+            font-weight: bold;
+            text-transform: uppercase;
+            width: 120px;
+        }
+
+        .value {
+            color: var(--text-gray);
+        }
