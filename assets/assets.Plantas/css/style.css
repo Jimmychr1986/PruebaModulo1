@@ -1,0 +1,117 @@
+.body{
+    margin: 0;
+    font-family: Verdana, Geneva, Geneva, sans-serif;
+}
+
+.head{
+    padding:-20px;
+    background-size:100px ;
+    max-width: 100%;
+    background-image: url(../assets/img/plantaheader.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(175, 216, 165);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}
+
+.Producto{
+    text-align: center;
+}
+
+/*Producto 1*/
+
+.Producto1{
+width: 45%;
+margin: auto;
+display: flex;
+}
+.Producto1 img{
+float: left;
+width: 100px;
+height: 100px;
+vertical-align:middle;
+margin-right: 30px;
+}
+
+.Producto1 p{
+text-align: left;
+display: inline-block;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+color: rgb(74, 74, 204);
+}
+
+/*Producto 2*/
+
+.Producto2{
+width: 45%;
+margin: auto;
+display: flex;
+}
+.Producto2 img{
+float: left;
+width: 100px;
+height: 100px;
+vertical-align:middle;
+margin-right: 30px;
+}
+
+.Producto2 p{
+text-align: left;
+display: inline-block;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+color: rgb(74, 74, 204);
+}
+
+/*Producto 3*/
+
+.Producto3{
+width: 45%;
+margin: auto;
+display: flex;
+}
+.Producto3 img{
+float: left;
+width: 100px;
+height: 100px;
+vertical-align:middle;
+margin-right: 30px;
+}
+
+.Producto3 p{
+text-align: left;
+display: inline-block;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+color: rgb(74, 74, 204);
+}
+
+
+/* Pie de Pagina*/
+.rigth{
+display: flex;
+/*align-items: left;*/
+gap: 10px;
+padding: -20px;
+background-size:200px ;
+max-width: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-color: rgb(175, 216, 165);
+}
+.rigth img {
+width: 30px;
+height: auto;
+display: flex;
+}
+
+.rigth p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+font-size: smaller;
+}
+
+

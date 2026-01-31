@@ -12,7 +12,7 @@
         }
 
         /* --- Seccion Superior--- */
-        .descripcion1 {
+        .descripcion {
             background-image: url(../img/fondo.jpg);
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),;
             background-size: cover;
@@ -80,6 +80,16 @@
             flex-wrap: wrap;
             gap: 40px;
         }
+        .card-portafolio {
+            max-width: 1000px;
+            margin: -50px auto 50px; 
+            background: white;
+            padding: 100px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
         .about {
             flex: 1;
             min-width: 300px;
@@ -112,10 +122,12 @@
 
         .label {
             font-weight: bold;
-            text-transform: uppercase;
             width: 120px;
         }
 
         .value {
+            color: var(--text-gray);
+        }
+        .value2 {
             color: var(--text-gray);
         }
