@@ -72,7 +72,7 @@
 
         .card {
             max-width: 1000px;
-            margin: -50px auto 50px; /* Eleva la tarjeta sobre el hero */
+            margin: -50px auto 50px; 
             background: white;
             padding: 40px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
